@@ -1,0 +1,23 @@
+{
+  "name": "qlik-engine",
+  "version": "1.0.0",
+  "description": "CLI and scripts for Qlik Cloud's Engine and REST APIs via @qlik/api: object edits, script, reload, rename, model snapshots",
+  "scripts": {
+    "qe": "node qe.mjs"
+  },
+  "keywords": [
+    "qlik",
+    "qix",
+    "engine-api"
+  ],
+  "author": "Pierre Rubiano",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@qlik/api": "2.15.2"
+  },
+  "bin": {
+    "qe": "qe.mjs"
+  },
+  "private": true
+}

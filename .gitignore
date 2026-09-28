@@ -1,0 +1,5 @@
+node_modules/
+# Object properties saved before every write. App content, not code.
+backups/
+.DS_Store
+qlik.config.json
